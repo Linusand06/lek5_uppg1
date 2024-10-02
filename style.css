@@ -1,0 +1,52 @@
+#top{
+    border: 5px solid red;
+    min-height: 80px;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#rubrik{
+    background-color: aqua;
+    border: 3px solid black;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#mellan{
+    flex-direction: row;
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 5px solid orange;
+}
+
+#vänster{
+    align-items: center ;
+    background-color: yellow;
+    border: 5px solid black;
+    width: 80%;
+    min-width: 45%;
+    text-align: center;
+}
+
+#höger{
+    align-items: center ;
+    background-color:lightpink;
+    border: 5px solid black;
+    width: 80%;
+    min-width: 45%;
+    text-align: center;
+    margin-left: 1%;
+}
+
+#botten{
+    border: 5px solid yellow;
+}
